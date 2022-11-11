@@ -19,10 +19,10 @@ target/
 *.iml
 *.ipr
 
-src/main/resources/application.yml
-src/main/java/ufps/app/email_microservice/RabbitAmqpTutorialsRunner.java
-src/main/java/ufps/app/email_microservice/RabbitAmqpTutorialsApplication.java
-src/main/java/ufps/app/email_microservice/tut1
+!**/src/main/resources/application.yml
+!**/src/main/java/ufps/app/email_microservice/RabbitAmqpTutorialsRunner.java
+!**/src/main/java/ufps/app/email_microservice/RabbitAmqpTutorialsApplication.java
+!**/src/main/java/ufps/app/email_microservice/tut1
 
 ### NetBeans ###
 /nbproject/private/
