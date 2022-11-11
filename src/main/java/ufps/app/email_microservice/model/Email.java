@@ -36,11 +36,11 @@ public class Email {
 
     public Email(){}
 
-    public Email(String asunto, String email, String cuerpo, boolean estado) {
-        this.asunto = asunto;
+    public Email(String email) {
+        this.asunto = "Bienvenido :)";
         this.email = email;
-        this.cuerpo = cuerpo;
-        this.estado = estado;
+        this.cuerpo = "Cordial saludo, te damos la bienvenida";
+        this.estado = true;
     }
 
     public String getAsunto() {

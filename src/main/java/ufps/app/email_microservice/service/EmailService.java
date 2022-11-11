@@ -6,4 +6,5 @@ import java.util.List;
 
 public interface EmailService {
     public List<Email> listarEmails();
+    public Email guardar(Email email);
 }

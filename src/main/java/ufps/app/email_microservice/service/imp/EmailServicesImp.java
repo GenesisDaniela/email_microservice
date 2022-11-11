@@ -18,4 +18,11 @@ public class EmailServicesImp implements EmailService {
     public List<Email> listarEmails() {
         return emailDAO.findAll();
     }
+
+    @Override
+    public Email guardar(Email email) {
+        return emailDAO.save(email);
+    }
+
+
 }
